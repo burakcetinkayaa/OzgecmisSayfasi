@@ -1,0 +1,60 @@
+.container ul{
+    list-style: none;
+}
+.container ul li{
+    float: left;
+}
+.container ul li a {
+    font-family: Arial;
+    font: bold;
+    padding-top: 0%;
+}
+.container {
+    background-color: black;
+      overflow: hidden;
+      border-radius: 10px;
+      
+}
+
+.container a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: seashell;
+    font-size: 17px;
+}
+
+.container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.container a.active {
+    background-color: purple;
+    color: white;
+    
+}
+#pp {
+    margin: 3%; 
+    width: 250px;
+    height: 250px; 
+}
+pre {
+    border-color:black;
+    border:2px solid black;
+    font-family: arial; 
+    font size: 80%;
+}
+
+footer {
+    font-family: arial;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+footer:hover {
+    opacity:0.5
+}
